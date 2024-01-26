@@ -43,8 +43,9 @@ import React from 'react'
 import Effect from "./Effect"
 import Reset from "./Reset"
 import Reducer from "./Reducer"
+import Callbacks from "./Callbacks"
 export default function App() {
   return (
-    <div><Effect/><Reset/><Reducer/></div>
+    <div><Effect/><Reset/><Reducer/><Callbacks/></div>
   );
 };
