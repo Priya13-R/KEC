@@ -44,8 +44,10 @@ import Effect from "./Effect"
 import Reset from "./Reset"
 import Reducer from "./Reducer"
 import Callbacks from "./Callbacks"
+import CounterComponent from './CounterComponent'
+import Memo from './Memo'
 export default function App() {
   return (
-    <div><Effect/><Reset/><Reducer/><Callbacks/></div>
+    <div><Effect/><Reset/><Reducer/><Callbacks/><CounterComponent/><Memo/></div>
   );
 };
